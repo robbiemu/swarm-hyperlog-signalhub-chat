@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <title>p2p Chat</title>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link href="styles/site.css" rel=stylesheet>
+  </head>
+  <body>
+    <main class=p2p-chat>
+      <div class=p2p-graph></div>
+
+      <div class=form-group>
+          <form name=login>
+              <input type=text name=name placeholder=Name>
+              <button type=button name=submit_name>Use Name</button>
+            </form>      
+      </div>
+
+      <div class=form-group>
+          <form name=chat>
+              <input type=text name=chat placeholder="Enter your message">
+              <button type=button name=submit_chat>Send</button>
+            </form>      
+      </div>
+
+      <section class=chat-log>
+        <ul class=log></ul>
+      </section>
+    </main>  
+  </body>
+</html>

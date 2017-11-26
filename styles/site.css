@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:200,200i,800|Bitter|Oxygen');
+
+:root {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 10pt;
+  font-weight: 200;
+}
+
+html {
+  height: 100%
+}
+html, body, main {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+body, main {
+  flex: 1;
+}
+
+button, input {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 11pt;
+}
+
+ul { 
+  padding: 0;
+  list-style: none;
+}
+
+.p2p-chat {
+  align-items: center;
+  background-color: whitesmoke;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.p2p-graph {
+  margin-bottom: 1em;
+  width: 50vw;
+  max-width: 50vw;
+  border-radius: 0.3em;
+  background-color: slategrey
+}
+
+.p2p-chat > .form-group {
+  width: 20em;
+  margin-bottom: 0.5em;
+}
+
+.chat-log {
+  flex:1;
+  overflow-y: auto;
+  width: 40em;
+  padding: 0.5em;
+  background-color: white;
+  font-family: Bitter, serif;
+}
