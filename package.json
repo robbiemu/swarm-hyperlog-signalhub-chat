@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "webpack-dev-server"
   },
-  "keywords": [],
+  "keywords": ["webrtc-swarm", "hyperlog", "leveldb","signalhub", "p2p", "swarm"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robbiemu/swarm-hyperlog-signalhub-chat.git"
+  },
   "author": "Robert Collins",
   "email": "roc6428@g.harvard.edu",
   "license": "ISC",
